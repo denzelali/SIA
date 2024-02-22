@@ -2,7 +2,7 @@
 $conn= mysqli_connect("localhost", "root", "", "dbr1");
 
 if($conn===false){
-    die("ERROR: Could not connecrt" . mysqli_connect_error());
+    die("ERROR: Could not connect" . mysqli_connect_error());
 }
 
 $sid=$_REQUEST['sid'];
